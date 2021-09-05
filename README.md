@@ -16,7 +16,7 @@ function addCandidate (string _name) private {
 ```
 *Après:*
 ```js
-// emplacmeent de stockage (à savoir memory dans le cas présent) nécessaire depuis la dernier version de solicity
+// emplacmeent de stockage (à savoir memory dans le cas présent) nécessaire depuis la dernier version de solidity
 function addCandidate (string memory _name) private {
     candidatesCount ++;
     candidates[candidatesCount] = Candidate(candidatesCount, _name, 0);
